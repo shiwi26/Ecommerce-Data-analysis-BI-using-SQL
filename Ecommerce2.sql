@@ -1,5 +1,3 @@
-USE mavenfuzzyfactory;
-
 /*
 1. First, I’d like to show our volume growth. Can you pull overall session and order volume, 
 trended by quarter for the life of the business? Since the most recent quarter is incomplete, 
