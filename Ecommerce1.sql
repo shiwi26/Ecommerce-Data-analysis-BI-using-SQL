@@ -1,6 +1,3 @@
-use mavenfuzzyfactory;
-
-
 /*
 1.	Gsearch seems to be the biggest driver of our business. Could you pull monthly 
 trends for gsearch sessions and orders so that we can showcase the growth there? 
@@ -114,7 +111,6 @@ GROUP BY 1,2;
 nonbrand sessions and revenue since then to calculate incremental value)
 */ 
 
-USE mavenfuzzyfactory;
 
 SELECT
 	MIN(website_pageview_id) AS first_test_pv
@@ -233,7 +229,6 @@ WHERE website_sessions.utm_source = 'gsearch'
 ORDER BY 
 	website_sessions.website_session_id,
     website_pageviews.created_at;
-
 
 
 
